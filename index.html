@@ -5,17 +5,18 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 </head>
 
 <body>
-    <div>
+    <div id="contenedor">
         <header>
-            <div>
+            <div id="cabecera">
                 <h2>Comenzando con la fotografia</h2>
                 <nav>
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
-                        <li><a href="paisajes.html">Paisajes</a></li>
+                        <li><a id="medio" href="paisajes.html">Paisajes</a></li>
                         <li><a href="retratos.html">Retratos</a></li>
                     </ul>
                 </nav>
@@ -26,19 +27,19 @@
         <section>
 
             <!--Imagen central-->
-            <article>
+            <article id="imagencentral">
                 <img src="img/bote.jpg" alt="bote">
             </article>
 
             <!--Imagen izquierda-->
-            <article>
-                <img src="img/montana.jpg" alt="montana">
+            <article class="secundarios" id="imagensecundaria1">
+                <img id="montana" src="img/montana.jpg" alt="montana">
                 <h3>Paisajes</h3>
             </article>
 
             <!--Imagen derecha-->
-            <article>
-                <img src="img/bebe.jpg" alt="bebe">
+            <article class="secundarios" id="imagensecundaria2">
+                <img id="bebe" src="img/bebe.jpg" alt="bebe">
                 <h3>Retratos</h3>
             </article>
         </section>
@@ -61,7 +62,7 @@
             <div>
                 <h3>Terminos</h3>
                 <br>
-                <p>Siempre mira adelante</p>
+                <p>Siempre mira hacia adelante</p>
             </div>
 
             <br>

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    background-color: #02010a;
+}
+
+@media screen and (min-width: 900px) {
+    #contenedor {
+        margin: auto;
+        max-width: 900px;
+    }
+    /*Header*/
+    #cabecera, section #imagencentral, footer {
+        width: 100%;
+        margin: auto;
+    }
+    #cabecera {
+        border-radius: 10px 15px 0 0;
+        background-color: #5b7989;
+        height: 60px;
+        position: static;
+    }
+    /*Menu*/
+    h2 {
+        padding: 15px;
+        margin-left: 10px;
+        color: white;
+        background-color: transparent;
+    }
+    nav ul {
+        float: right;
+        margin: -35px 30px 0 0;
+    }
+    nav ul li {
+        display: inline;
+    }
+    nav ul li a {
+        color: white;
+    }
+    nav ul li #medio {
+        margin: 0 10px 0;
+    }
+    /*Body*/
+    /*Imagen central*/
+    section #imagencentral {
+        background-color: #82c3a6;
+    }
+    section #imagencentral img {
+        margin: 30px 6em;
+        width: 80%;
+        height: 400px;
+        border: 1px solid;
+        box-shadow: 2px 2px #02010a;
+    }
+    /*Imagenes secundarias*/
+    .secundarios {
+        background-color: #d5c75f;
+        text-align: center;
+        height: 310px;
+        width: 20px;
+    }
+    section #imagensecundaria1 {
+        width: 50%;
+        float: left;
+    }
+    section #imagensecundaria2 {
+        width: 50%;
+        float: left;
+    }
+    section #imagensecundaria1 img {
+        width: 350px;
+        height: 250px;
+        margin: 20px 0 0 3em;
+        border: 2px solid;
+        box-shadow: 3px 5px #82c3a6;
+    }
+    section #imagensecundaria2 img {
+        width: 350px;
+        height: 250px;
+        margin: 20px 3em 0 0px;
+        border: 2px solid;
+        box-shadow: 3px 5px #82c3a6;
+    }
+    /*Transiciones de las imagenes secundarias*/
+    section #imagensecundaria1 img {
+        transition: 1s transform;
+    }
+    section #imagensecundaria1 img:hover {
+        transition: 1s transform;
+        transform: rotate(10deg);
+    }
+    section #imagensecundaria2 img {
+        transition: 1s transform;
+    }
+    section #imagensecundaria2 img:hover {
+        transition: 1s transform;
+        transform: translate(20px, -5px);
+    }
+    /*Footer*/
+    footer {
+        background-color: #C6d5c5;
+        font-style: italic;
+        height: 220px;
+        clear: both;
+    }
+    footer div {
+        float: left;
+        margin: 30px 0 0 70px;
+    }
+    /*-------------------------------------------*/
+    /*Paisajes.html, Retratos.html*/
+    #caja {
+        background-color: #d5c75f;
+        margin: 0;
+        padding: 0;
+    }
+    #caja div img {
+        height: 170px;
+        width: 260px;
+    }
+    /*Orden*/
+    #paisaje1, #paisaje2, #paisaje3, #paisaje5 {
+        float: left;
+    }
+    #paisaje1 {
+        margin-left: 20px;
+    }
+    #paisaje2 {
+        margin: 20px 20px;
+    }
+    #paisaje3 {
+        margin: 20px 0 0 0;
+    }
+    #paisaje4 {
+        float: right;
+        margin: 20px 40px 0 0;
+    }
+    #paisaje5 {
+        margin-left: 40px;
+    }
+    #paisaje6 {
+        padding: 45px;
+        margin-left: 17.2em;
+    }
+    div#caja #paisaje1 img {
+        margin: 20px 0 0 20px;
+    }
+    /*Efectos*/
+    #paisaje1 img {
+        filter: blur(10px);
+    }
+    #paisaje2 img, #paisaje4 img, #paisaje5 img {
+        filter: grayscale(100%);
+    }
+    #paisaje3 img {
+        filter: sepia(75%);
+    }
+    /*---------------------------------------------*/
+}
+
+/*General*/
+
+nav, nav ul, nav ul li, div, nav ul li a, h3, p, footer section {
+    background-color: transparent;
+}
+
+#cabecera nav ul li a, p, h3 {
+    font-size: 20px;
+}
